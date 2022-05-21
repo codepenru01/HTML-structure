@@ -1,0 +1,221 @@
+
+<!DOCTYPE html>
+<html lang="uzb">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icon/icon.png">
+    <title>HTML structura!</title>
+</head>
+<body>
+    <details>
+        <summary>Image</summary>
+        <img src="image/img.jpg" alt="jpg" width="400px" height="250px">
+    </details>
+    <details>
+        <summary>Headings</summary>
+        <h1>Headings</h1>
+        <h2>Headings</h2>
+        <h3>Headings</h3>
+        <h4>Headings</h4>
+        <h5>Headings</h5>
+        <h6>Headings</h6>
+    </details>
+    <details>
+        <summary>Paragraph</summary>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia, at.
+        </p>
+        <pre>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia, at.
+        </pre>
+    </details>
+    <details>
+        <summary>Formatting</summary>
+        X<sub>2</sub>O <!--Subscript matn-->
+        <br> 
+        <b>Qalin matn</b> 
+        <br>
+        <s>O'chirilgan matn</s> 
+        <br>
+        <u>Kiritilgan matn</u> 
+        <br>
+        <big>Kattaroq matn</big> 
+        <br>
+        <i>Kursiv matn</i> 
+        <br>
+        <del>O'chirilgan matn</del> 
+        <br>
+        <q>Qo'shtirnoq ichida</q> 
+        <br>
+        <small>Kichikroq matn</small> 
+        <br>
+        <em>Ta'kidlangan matn</em> 
+        <br>
+        <ins>Kiritilgan matn</ins> 
+        <br>
+        <mark>Belgilangan matn</mark> 
+        <br>
+        <strike>O'chirilgan matn</strike> 
+        <br>
+        <strong>Muhim matn</strong> 
+        <br>
+        X<sup>2</sup> <!--Yuqori yozuv matni-->
+    </details>
+    <!--  -->
+    <details>
+        <summary>Links</summary>
+        <a href="https://google.com" title="Google o'tish uchun ustiga bosing" target="_blank">Google</a>
+        <br>
+        <a href="https://www.instagram.com/sob1rjonov1ch.072/" title="Instagram o'tish uchun ustiga bosing" target="_blank">Instagram</a>
+        <br>
+        <a href="https://app.netlify.com/teams/codepenru01/overview" title="Netlify o'tish uchun ustiga bosing" target="_blank">Netlify</a>
+        <br>
+        <a href="https://t.me/Jakhongir_Akhadov" title="Telegram kanalga o'tish uchun ustiga bosing" target="_blank">Telegram</a>
+    </details>
+    <details>
+        <summary>Tables</summary>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Familya</th>
+                    <th>Ism</th>
+                    <th>Yosh</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Ahadov</td>
+                    <td>Jahongir</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Abdullayev</td>
+                    <td>Azimjon</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Abdurasulov</td>
+                    <td>Azizbek</td>
+                    <td>16</td>
+                </tr>
+            </tbody>
+        </table>
+    </details>
+    <details>
+        <summary>Lists</summary>
+        <ul>
+            <li>Tartibsiz</li>
+            <li>Tartibsiz</li>
+            <li>Tartibsiz</li>
+        </ul>
+        <ol>
+            <li>Tartibli</li>
+            <li>Tartibli</li>
+            <li>Tartibli</li>
+        </ol>
+    </details>
+    <details>
+        <summary>Form</summary>
+        <select name="country" id="country">
+            <option value="uk">UK</option>
+            <option value="usa">USA</option>
+            <option value="uzb">UZBEKISTAN</option>
+        </select>
+        <br><br>
+        <form>
+            <label for="text">Familya: </label>
+            <input type="text" name="text" id="text" required>
+            <br><br>
+            <label for="text">Ism: </label>
+            <input type="text" name="text" id="text" required>
+            <br><br>
+            <label for="button">Bosing: </label>
+            <input type="button" value="button" required>
+            <br><br>
+            <label for="checkbox">Student: </label>
+            <input type="checkbox" name="checkbox" id="checkbox" required>
+            <br><br>
+            <label for="color">Color: </label>
+            <input type="color" name="color" id="color" required>
+            <br><br>
+            <label for="date">Date: </label>
+            <input type="date" name="date" id="date" required>
+            <br><br>
+            <label for="datetime">Datetime: </label>
+            <input type="datetime" name="datetime" id="datetime" required>
+            <br><br>
+            <label for="datetime-local">Datetime-local: </label>
+            <input type="datetime-local" name="datetime-local" id="datetime-local" required>
+            <br><br>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" required>
+            <br><br>
+            <label for="file">File: </label>
+            <input type="file" name="file" id="file" required>
+            <br><br>
+            <label for="image">Rasm: </label>
+            <input type="image" src="image/img.jpg" alt="jpg" required>
+            <br><br>
+            <label for="month">Month: </label>
+            <input type="month" name="month" id="month" required>
+            <br><br>
+            <label for="number">Number: </label>
+            <input type="number" name="number" id="number" required>
+            <br><br>
+            <label for="password">Password: </label>
+            <input type="password" name="password" id="password" required>
+            <br><br>
+            <label for="radio">Boy: </label>
+            <input type="radio" name="redio" id="redio" required>
+            <br><br>
+            <label for="radio">Girl:</label>
+            <input type="radio" name="redio" id="redio" required>
+            <br><br>
+            <label for="reset">Reset: </label>
+            <input type="reset" value="reset" required>
+            <br><br>
+            <label for="submit">Submit: </label>
+            <input type="submit" value="submit" required>
+            <br><br>
+            <label for="search">Search: </label>
+            <input type="search" name="search" id="search" required>
+            <br><br>
+            <label for="tel">Tel: </label>
+            <input type="tel" name="tel" id="tel" required>
+            <br><br>
+            <label for="time">Time: </label>
+            <input type="time" name="time" id="time" required>
+            <br><br>
+            <label for="url">Url: </label>
+            <input type="url" name="url" id="url" required>
+            <br><br>
+            <label for="week">Week: </label>
+            <input type="week" name="week" id="week" required>
+        </form>
+    </details>
+    <details>
+        <summary>Audio</summary>
+        <audio controls>
+            <source src="audio/audio.mp3">
+        </audio>
+    </details>
+    <details>
+        <summary>Video</summary>
+        <video controls>
+            <source src="video/video.mp4">
+        </video>
+    </details>
+    <details>
+        <summary>Youtube</summary>
+        <iframe width="100%" height="600" src="https://www.youtube.com/embed/-CNdRywgF7M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.bing.com" width="100%" height="600" frameborder="0"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19580.523379561087!2d69.56579720378762!3d40.85736781399977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae311e4d917233%3A0xbd1b8b6cfa0c59c9!2sAlmalyk%20Mining%20%26%20Metallurgical%20Combine!5e0!3m2!1sru!2s!4v1645095395752!5m2!1sru!2s" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </details>
+</body>
+</html>
